@@ -1,9 +1,26 @@
-html,
-body {
+:root {
+  --meta-black: #060213;
+  --meta-border: #ecebf5;
+  --meta-light-green: rgba(37, 187, 135, 0.1);
+  --meta-green-font: #25bb87;
+  --meta-grey: #696d8c;
+  --meta-purple: #6837ef;
+  --meta-text: #696d8c;
+}
+
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Gelion Regular", sans-serif;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -11,6 +28,33 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "Gelion Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gelion Regular"),
+    url("./fonts/Gelion-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gelion Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gelion Medium"), url("./fonts/Gelion-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Gelion Semi Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gelion Semi Bold"),
+    url("./fonts/Gelion-Medium.woff") format("woff");
+}
+
+ul {
+  list-style-type: none;
+}
+
+#main {
+  padding-left: 262px;
 }
