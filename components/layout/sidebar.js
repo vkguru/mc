@@ -153,7 +153,7 @@ export default function SideBar() {
                     .menu ul li a {
                         display: flex;
                         color: var(--meta-text);
-                        margin: 26px 0;
+                        margin: 33px 0;
                     }
 
                     .menu ul li a::after {
@@ -184,7 +184,7 @@ export default function SideBar() {
 
                     .sub-menu {
                         padding-left: 30px;
-                        margin-top: -5px;
+                        margin-top: -15px;
                     }
 
                     .sub-menu ul li a {

@@ -12,6 +12,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  outline: none;
 }
 
 html,
@@ -57,4 +58,12 @@ ul {
 
 #main {
   padding-left: 262px;
+}
+
+.container {
+  padding: 0 30px;
+}
+
+input:focus {
+  border: 0;
 }
