@@ -1,6 +1,6 @@
-import SideBar from '../components/layout/sidebar'
-import NavBar from '../components/layout/navbar'
-import '../styles/globals.css'
+import SideBar from '../components/layout/Sidebar';
+import NavBar from '../components/layout/Navbar';
+import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (

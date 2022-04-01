@@ -67,3 +67,8 @@ ul {
 input:focus {
   border: 0;
 }
+
+.page {
+  padding-top: 255px;
+  margin-bottom: 300px;
+}

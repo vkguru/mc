@@ -91,7 +91,10 @@ export default function NavBar() {
       <style jsx>
         {`
           nav {
-            width: 100%;
+            position: fixed;
+            top: 0;
+            background: #fff;
+            width: calc(100% - 262px);
           }
 
           .nav-top {
@@ -146,6 +149,7 @@ export default function NavBar() {
 
           .nav-notify_icon img {
             margin-right: 5px;
+            cursor: pointer;
           }
 
           .badge {
@@ -215,6 +219,7 @@ export default function NavBar() {
 
           .nav-bottom h2 {
             font-family: "Gelion Semi Bold";
+            color: var(--meta-black);
           }
 
           ._form {
@@ -252,6 +257,7 @@ export default function NavBar() {
             border-radius: 8px;
             color: var(--meta-black);
             font-weight: 600;
+            cursor: pointer;
           }
 
           .select img {
