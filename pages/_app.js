@@ -1,5 +1,5 @@
 import SideBar from '../layout/Sidebar';
-import NavBar from '../layout/navbar';
+import NavBar from '../layout/Navbar';
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
