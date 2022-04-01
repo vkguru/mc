@@ -50,7 +50,7 @@ const EfficiencyCard = ({
           </div>
       </section>
 
-      {/* jsx style */}
+      {/* jsx style */} 
 
       <style jsx>
         {`
