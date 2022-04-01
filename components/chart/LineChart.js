@@ -78,5 +78,3 @@ LineChart.propTypes = {
 }
 
 export default LineChart;
-
-{/* <Doughnut data={...} /> */}
