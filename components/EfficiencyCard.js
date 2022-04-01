@@ -28,7 +28,7 @@ const EfficiencyCard = ({
                 <div className='select'>
                   This Month
                   <span>
-                    <img src="/img/calendar.png" />
+                    <img src="/img/calendar.png" alt='' />
                   </span>
                 </div>
               </div>

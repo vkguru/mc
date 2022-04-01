@@ -17,13 +17,13 @@ export default function NavBar() {
 
             <div className="nav-notify">
               <div className="nav-notify_icon">
-                <img src="/img/ic_Notification.png" />
+                <img src="/img/ic_Notification.png" alt="" />
                 <span className="badge">3</span>
               </div>
 
               <div className="nav-profile">
                 <img src="/img/profile-img.png" alt="profile" className="profile-img" />
-                <img src="/img/down-arrow.png" className="down-arrow" />
+                <img src="/img/down-arrow.png" className="down-arrow" alt="" />
               </div>
             </div>
           </div>
@@ -71,12 +71,12 @@ export default function NavBar() {
           <div className="_form">
             <div className="form-group">
               <input type="search" placeholder="Search" />
-              <img src="/img/icon_search.png" />
+              <img src="/img/icon_search.png" alt="" />
             </div>
 
             <div className="select">
               Filter Options
-              <img src="/img/filter.png" />
+              <img src="/img/filter.png" alt="" />
             </div>
 
             <hr />
