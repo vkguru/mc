@@ -66,7 +66,6 @@ const EfficiencyCard = ({
             width: 70%;
             height: 370px;
             padding: 30px;
-            border-right: 1px solid var(--meta-border);
           }
 
           .graph-card header {
@@ -132,6 +131,7 @@ const EfficiencyCard = ({
 
           .duration-card {
             width: 30%;
+            border-left: 1px solid var(--meta-border);
           }
 
           .duration-card ._inner {
