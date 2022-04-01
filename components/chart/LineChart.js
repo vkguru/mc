@@ -62,7 +62,7 @@ const LineChart = ({lineData, borderColor}) => {
             {
                 data: lineData,
                 borderColor: borderColor,
-                backgroundColor: 'rgba(255, 99, 132, 0.5)',
+                backgroundColor: borderColor,
                 yAxisID: 'y',
             }
         ],
